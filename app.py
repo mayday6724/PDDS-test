@@ -6,7 +6,7 @@ from dash import dcc, Dash, html, Input, Output, callback
 
 #data preprocessing - calculate raw data into data that can be used
 
-df = pd.read_csv("/Users/iris.tsai/Desktop/PDDS/2.dataset/Sleep_health_and_lifestyle_dataset.csv")
+df = pd.read_csv("Sleep_health_and_lifestyle_dataset.csv")
 df_3 = df[df["Stress Level"] == 3]
 df_4 = df[df["Stress Level"] == 4]
 df_5 = df[df["Stress Level"] == 5]
